@@ -1,0 +1,60 @@
+body{
+  overflow-x: hidden;
+}
+html{
+  overflow-x: hidden;
+}
+
+.inputBox{
+  background-color: #EAEAEA;
+  display: flex;
+  align-items: center;
+  border: 1px solid #D1D5DB;
+  border-radius: 5px;
+}
+.inputBox input{
+  flex: 1;
+  background-color: transparent;
+  padding: 10px;
+  border: 5px;
+  padding-left: 0px;
+  outline: 0;
+  border: 0;
+}
+.inputBox i{
+  font-size: 20px;
+  margin-right: 7px;
+  margin-left: 5px;
+}
+
+.inputCon{
+  margin-bottom: 20px;
+}
+.right{
+  width: calc(100% - 30%);
+}
+
+.btnBlue{
+  padding: 10px;
+  color: #fff;
+  min-width: 120px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: #3B82F6;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.btnBlue:hover{
+  background-color: #2563eb;
+}
+.btnBlue i{
+  font-size: 20px;
+}
+.jodit-wysiwyg{
+  min-height: calc(100vh - 250px) !important;
+}
